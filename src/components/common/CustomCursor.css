@@ -1,0 +1,72 @@
+.custom-cursor-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.custom-cursor {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #111;
+  opacity: 0;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .22), 0 2px 8px rgba(0, 0, 0, .14);
+  transition: width .24s ease, height .24s ease, top .24s ease, left .24s ease, opacity .2s ease;
+}
+
+.custom-cursor.is-visible {
+  opacity: 1;
+}
+
+.custom-cursor.is-hovering {
+  top: -8px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 0 1px rgba(17, 17, 17, .18), 0 0 0 5px rgba(255, 255, 255, .22), 0 3px 12px rgba(0, 0, 0, .16);
+}
+
+.custom-cursor-particles {
+  position: absolute;
+  inset: 0;
+}
+
+.custom-cursor-particle {
+  position: absolute;
+  display: block;
+  width: var(--particle-size);
+  height: var(--particle-size);
+  color: rgba(91, 92, 87, .72);
+  font: var(--particle-size) / 1 Georgia, serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  animation: custom-cursor-fade var(--particle-duration, 700ms) ease-out forwards;
+  will-change: transform, opacity;
+}
+
+.custom-cursor-particle.is-star {
+  color: rgba(255, 255, 255, .9);
+  text-shadow: 0 0 5px rgba(255, 255, 255, .7);
+}
+
+@keyframes custom-cursor-fade {
+  from {
+    opacity: .76;
+    transform: translate(-50%, -50%) scale(.7);
+  }
+  to {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--drift-x)), calc(-50% + var(--drift-y))) scale(.15);
+  }
+}
+
+@media (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .custom-cursor-layer {
+    display: none;
+  }
+}

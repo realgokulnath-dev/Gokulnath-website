@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">College E-Voting System</title>
+  <desc id="desc">Abstract preview of a college association e-voting dashboard with election positions and voter eligibility.</desc>
+  <rect width="1200" height="700" fill="#e6e4dc"/>
+  <rect x="58" y="54" width="1084" height="592" fill="#f2f0e9" stroke="#151713" stroke-width="2"/>
+  <rect x="58" y="54" width="1084" height="72" fill="#151713"/>
+  <circle cx="94" cy="90" r="10" fill="#d7ff5f"/>
+  <text x="122" y="97" fill="#f2f0e9" font-family="monospace" font-size="21" letter-spacing="2">IT ASSOCIATION ELECTIONS</text>
+  <text x="92" y="174" fill="#777970" font-family="monospace" font-size="16" letter-spacing="2">DIGITAL VOTING SYSTEM / 2026</text>
+  <text x="92" y="225" fill="#151713" font-family="Georgia, serif" font-size="42">Choose your representatives.</text>
+  <rect x="92" y="267" width="322" height="166" fill="#151713"/>
+  <text x="120" y="308" fill="#a9c33e" font-family="monospace" font-size="15" letter-spacing="2">ELECTION POSITIONS</text>
+  <text x="120" y="350" fill="#f2f0e9" font-family="sans-serif" font-size="25">President</text>
+  <text x="120" y="387" fill="#f2f0e9" font-family="sans-serif" font-size="25">Secretary</text>
+  <text x="120" y="424" fill="#f2f0e9" font-family="sans-serif" font-size="25">Treasurer</text>
+  <rect x="458" y="267" width="322" height="166" fill="#d7ff5f"/>
+  <text x="486" y="308" fill="#151713" font-family="monospace" font-size="15" letter-spacing="2">ELIGIBLE VOTERS</text>
+  <text x="486" y="361" fill="#151713" font-family="sans-serif" font-size="30">2nd Year</text>
+  <text x="486" y="399" fill="#151713" font-family="sans-serif" font-size="30">3rd Year</text>
+  <text x="486" y="437" fill="#151713" font-family="sans-serif" font-size="30">Final Year</text>
+  <rect x="824" y="267" width="262" height="166" fill="#fff" stroke="#d7d6cd" stroke-width="2"/>
+  <text x="852" y="308" fill="#777970" font-family="monospace" font-size="15" letter-spacing="2">VOTER DATA</text>
+  <rect x="852" y="338" width="82" height="45" fill="#e6e4dc"/>
+  <text x="868" y="367" fill="#151713" font-family="monospace" font-size="16">XLSX</text>
+  <path d="M946 360h34" stroke="#151713" stroke-width="2"/>
+  <path d="m974 350 10 10-10 10" fill="none" stroke="#151713" stroke-width="2"/>
+  <rect x="998" y="338" width="62" height="45" fill="#151713"/>
+  <text x="1011" y="367" fill="#f2f0e9" font-family="monospace" font-size="16">CSV</text>
+  <line x1="92" y1="496" x2="1086" y2="496" stroke="#d7d6cd" stroke-width="2"/>
+  <text x="92" y="548" fill="#777970" font-family="monospace" font-size="15" letter-spacing="2">SECURE ACCESS</text>
+  <text x="92" y="586" fill="#151713" font-family="sans-serif" font-size="23">One vote per student</text>
+  <text x="846" y="586" fill="#777970" font-family="monospace" font-size="15" text-anchor="end">EMAIL + REGISTRATION NUMBER</text>
+</svg>
