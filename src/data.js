@@ -1,3 +1,14 @@
+import resumeAsset from './assets/Gokul Nath S - Resume.pdf'
+import intern1Certificate from './assets/certificates/intern-1.pdf'
+import cscCertificate from './assets/certificates/csc.jpeg'
+import eboxCertificate from './assets/certificates/e-box.pdf'
+import internationalConference1 from './assets/certificates/ic-1.jpeg'
+import internationalConference2 from './assets/certificates/ic-2.pdf'
+import publicationCertificate from './assets/certificates/publication.jpeg'
+import sdt1Certificate from './assets/certificates/std-1.jpeg'
+import sdt2Certificate from './assets/certificates/std-2.jpeg'
+import sdt3Certificate from './assets/certificates/std-3.jpeg'
+
 export const profile = {
   name: 'GOKUL NATH S',
   role: 'Full-stack Web Developer | Python – Backend Developer',
@@ -13,7 +24,7 @@ export const profile = {
   ],
 }
 
-export const resumeUrl = 'src/assets/Gokul Nath S - Resume.pdf'
+export const resumeUrl = resumeAsset
 
 export const experiences = [
   {
@@ -24,7 +35,7 @@ export const experiences = [
     description: 'Developed an e-commerce website that includes login page, user account page, add-to-cart management, wishlist, order management, and payment process. The project was developed using frontend technologies.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     accent: 'Self Placed',
-    certificateUrl: 'src/assets/certificates/intern-1.pdf',
+    certificateUrl: intern1Certificate,
     projectUrl: 'https://friendly-klepon-4696fc.netlify.app/login.html',
   },
   {
@@ -35,7 +46,7 @@ export const experiences = [
     description: 'Developed a responsive frontend application for job seekers and recruiters. Work included job listing module, application tracking module, company profile module, reusable React components, and frontend interfaces integrated with backend APIs.',
     tags: ['React.js', 'HTML', 'CSS', 'JavaScript'],
     accent: 'Online',
-    certificateUrl: 'src/assets/certificates/intern-2.pdf',
+    certificateUrl: '',
     projectUrl: 'https://connect-the-career.netlify.app/',
   },
   {
@@ -46,7 +57,7 @@ export const experiences = [
     description: 'Completed Python Full Stack Development training covering Python programming, backend development, API development and database integration. The training also included hands-on learning with Python, FastAPI, PostgreSQL and SQLAlchemy.',
     tags: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy'],
     accent: 'Training',
-    certificateUrl: 'src/assets/certificates/intern-3.jpeg',
+    certificateUrl: '',
   },
 ]
 
@@ -183,7 +194,7 @@ export const projects = [
     group: 'featured',
     featured: true,
     year: '',
-    image: '/assets/images/projects/college-e-voting-system.svg',
+    image: `${import.meta.env.BASE_URL}assets/images/projects/college-e-voting-system.svg`,
     description: 'Developed a college-level e-voting system for conducting IT department association elections digitally, providing a structured and secure voting workflow for students across 2nd Year, 3rd Year and Final Year. Student email addresses and registration numbers can be maintained in Excel and uploaded as CSV data to manage eligible voters and voting access. The system validates one vote per student, providing a cleaner and more organized alternative to manual election processes.',
     technologies: ['React', 'Tailwind CSS', 'FastAPI', 'PostgreSQL'],
     rating: '',
@@ -218,17 +229,17 @@ export const courseCertifications = [
   {
     title: 'Diploma in Computer Application (DCA)',
     organization: 'Computer Software College (CSC)',
-    certificateUrl: 'src/assets/certificates/csc.jpeg',
+    certificateUrl: cscCertificate,
   },
   {
     title: 'Ebox',
     organization: 'C Programming Language, Problem Solving and Python Programming',
-    certificateUrl: 'src/assets/certificates/e-box.pdf',
+    certificateUrl: eboxCertificate,
   },
   {
     title: 'Web Development',
     organization: 'Corizo EduTech',
-    certificateUrl: 'src/assets/certificates/intern-1.pdf',
+    certificateUrl: intern1Certificate,
   },
 ]
 
@@ -236,12 +247,12 @@ export const conferenceCertifications = [
   {
     title: 'International Conference on Advanced Innovation in Technology',
     organization: 'Arifa Institute of Technology',
-    certificateUrl: 'src/assets/certificates/ic-1.jpeg',
+    certificateUrl: internationalConference1,
   },
   {
     title: 'International Conference on Interactive Educational Technology and Storytelling for Children',
     organization: 'Kamaraj College of Technology, Virudhunagar',
-    certificateUrl: 'src/assets/certificates/ic-2.pdf',
+    certificateUrl: internationalConference2,
   },
 ]
 
@@ -259,7 +270,7 @@ export const articles = [
     read: 'Research',
     image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85',
     excerpt: 'Published research work focusing on emerging technologies and innovations in modern computing systems.',
-    certificateUrl: 'src/assets/certificates/publication.jpeg',
+    certificateUrl: publicationCertificate,
   },
 ]
 
@@ -268,19 +279,19 @@ export const sdtTraining = [
     organization: 'INITZ TECHNOLOGIES',
     specialization: 'Python Development',
     description: 'Completed intensive Python training covering programming fundamentals, problem solving, object-oriented programming and real-world application development.',
-    certificateUrl: 'src/assets/certificates/std-1.jpeg',
+    certificateUrl: sdt1Certificate,
   },
   {
     organization: 'SPARKOUT TECH SOLUTIONS',
     specialization: 'Generative AI & LLM',
     description: 'Learned Generative AI concepts, Prompt Engineering, Large Language Models (LLMs), AI integrations and Python-based AI application development.',
-    certificateUrl: 'src/assets/certificates/std-2.jpeg',
+    certificateUrl: sdt2Certificate,
   },
   {
     organization: 'YARDSICK',
     specialization: 'Java Full Stack Development',
     description: 'Completed training in Java Full Stack Development including frontend technologies, backend development, databases and enterprise application architecture.',
-    certificateUrl: 'src/assets/certificates/std-3.jpeg',
+    certificateUrl: sdt3Certificate,
   },
 ]
 
@@ -326,7 +337,7 @@ export const stackvernInfo = {
   instagram: '@stackvern_',
   email: 'stackverntech@gmail.com',
   linkedin: '@stack-vern',
-  logo: '/assets/images/stackvern-logo.png',
+  logo: `${import.meta.env.BASE_URL}stackvern.jpeg`,
 }
 
 export const founderInfo = {

@@ -20,7 +20,7 @@ export default function Services() {
       </div>
 
       <div className="workflow-visual" style={{ marginTop: '32px' }}>
-        <img src="/work.png" alt="Workflow process" style={{ width: '100%', height: 'auto', display: 'block' }} />
+        <img src={`${import.meta.env.BASE_URL}work.png`} alt="Workflow process" style={{ width: '100%', height: 'auto', display: 'block' }} />
       </div>
     </section>
   )

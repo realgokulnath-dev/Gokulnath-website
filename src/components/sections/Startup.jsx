@@ -13,7 +13,7 @@ export default function Startup() {
           <motion.div className="startup-box primary-box" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={reveal}>
             <div className="startup-grid">
               <div className="startup-logo-area">
-                <img src="/stackvern.jpeg" alt={stackvernInfo.name} className="startup-logo" />
+                <img src={`${import.meta.env.BASE_URL}stackvern.jpeg`} alt={stackvernInfo.name} className="startup-logo" />
               </div>
               <div className="startup-info">
                 <h3>{stackvernInfo.role}</h3>

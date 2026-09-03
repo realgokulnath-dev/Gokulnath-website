@@ -1,12 +1,14 @@
 import SectionIntro from '../common/SectionIntro'
 
+const aboutImage = `${import.meta.env.BASE_URL}abt.jpeg`
+
 export default function About() {
   return (
     <section id="about" className="about container">
       <div className="about-image">
         <img
           loading="lazy"
-          src="public\abt.jpeg"
+          src={aboutImage}
           alt="A collaborative software team in a studio"
         />
         <span>

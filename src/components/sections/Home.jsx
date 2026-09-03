@@ -3,6 +3,8 @@ import { ArrowUpRight } from 'lucide-react'
 import { reveal } from '../../utils/animations'
 import TypingAnimation from '../TypingAnimation'
 
+const heroImage = `${import.meta.env.BASE_URL}gkl.jpeg`
+
 const titles = [
   'Python Full-Stack Developer',
   'Python Backend Developer',
@@ -115,7 +117,7 @@ Passionate about turning ideas into practical and impactful digital solutions.  
       >
         <div className="portrait-glow" />
         <img
-          src="public\gkl.jpeg"
+          src={heroImage}
           alt="Gokul Nath in a bright modern office"
         />
         <div className="image-label label-top">Salem / 2026</div>
