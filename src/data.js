@@ -1,5 +1,7 @@
 import resumeAsset from './assets/Gokul Nath S - Resume.pdf'
 import intern1Certificate from './assets/certificates/intern-1.pdf'
+import intern2Certificate from './assets/certificates/intern-2.pdf'
+import intern3Certificate from './assets/certificates/intern-3.jpeg'
 import cscCertificate from './assets/certificates/csc.jpeg'
 import eboxCertificate from './assets/certificates/e-box.pdf'
 import internationalConference1 from './assets/certificates/ic-1.jpeg'
