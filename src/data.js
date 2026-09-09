@@ -48,7 +48,7 @@ export const experiences = [
     description: 'Developed a responsive frontend application for job seekers and recruiters. Work included job listing module, application tracking module, company profile module, reusable React components, and frontend interfaces integrated with backend APIs.',
     tags: ['React.js', 'HTML', 'CSS', 'JavaScript'],
     accent: 'Online',
-    certificateUrl: '',
+    certificateUrl: 'intern2Certificate',
     projectUrl: 'https://connect-the-career.netlify.app/',
   },
   {
@@ -59,7 +59,7 @@ export const experiences = [
     description: 'Completed Python Full Stack Development training covering Python programming, backend development, API development and database integration. The training also included hands-on learning with Python, FastAPI, PostgreSQL and SQLAlchemy.',
     tags: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy'],
     accent: 'Training',
-    certificateUrl: '',
+    certificateUrl: 'intern3Certificate',
   },
 ]
 
