@@ -18,7 +18,7 @@ export const profile = {
   location: 'Salem, Tamil Nadu',
   email: 'gokulsaravanan034@gmail.com',
   social: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gokul-nath-s/' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/gokulnath01/' },
     { label: 'GitHub', href: 'https://github.com/realgokulnath-dev' },
     { label: 'Instagram', href: 'https://www.instagram.com/gokulnath.dev' },
     { label: 'WhatsApp', href: 'https://wa.me/919342486977' },
